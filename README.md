@@ -1,6 +1,6 @@
-# book_app
+# Book App
 
-A book application.
+A book application that bring readers and writers together..
 
 ## Getting Started
 
