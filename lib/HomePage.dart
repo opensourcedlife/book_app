@@ -1,3 +1,4 @@
+import 'package:book_app/loaders/SliderPage.dart';
 import 'package:book_app/pages/Account.dart';
 import 'package:book_app/pages/BookList.dart';
 import 'package:book_app/pages/Help.dart';
@@ -147,13 +148,5 @@ class HomePage extends StatelessWidget {
 //add new book
 _addBook(BuildContext context) {}
 
-//home slider
-class SliderPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text("Welcome!"),
-    );
-  }
-}
+
 

@@ -1,4 +1,4 @@
-#Tue Jan 22 12:09:43 SAST 2019
+#Tue Jan 22 17:46:29 SAST 2019
 base.0=/home/cipaldev/AndroidStudioProjects/book_app/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -10,14 +10,8 @@ class Completed extends StatefulWidget {
 class _CompletedState extends State<Completed> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Scaffold(
-        body: Text(
-          "Completed",
-          style: TextStyle(color: Colors.teal),
-          textAlign: TextAlign.center,
-        ),
-      ),
+    return Center(
+      child: Text("Completed Books"),
     );
   }
 }
