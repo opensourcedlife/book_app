@@ -5,16 +5,11 @@ import 'package:book_app/pages/Help.dart';
 import 'package:book_app/pages/MyBooks.dart';
 import 'package:book_app/pages/Settings.dart';
 import 'package:book_app/pages/WriteBook.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(BookApp());
 
 class BookApp extends StatefulWidget {
-  final FirebaseUser user;
-
-  const BookApp({Key key, this.user}) : super(key: key);
-
   @override
   State<StatefulWidget> createState() {
     return _MainAppState();

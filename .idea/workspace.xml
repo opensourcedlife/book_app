@@ -4,10 +4,333 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021dfd49-261c-4ad9-85ec-bc9193092e6d" name="Default Changelist" comment="">
+    <list default="true" id="021dfd49-261c-4ad9-85ec-bc9193092e6d" name="Default Changelist" comment="Login Updated">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app.dill.incremental.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill.incremental.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/flutter-x86.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/flutter-x86.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/KTZ5no56dzmcrhNDJCEW5vn9SU8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/KTZ5no56dzmcrhNDJCEW5vn9SU8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/KtoRCqx8SNbcIasjAx6MQoJefj8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/ztYeiV2yoXVHigziVC+6c5_1Scc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/arch/lifecycle/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/compat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/compat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/coreui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/coreutils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/mediacompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/mediacompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/v4/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/v4/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/android/gms/base/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/android/gms/common/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/firebase/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/firebase/auth/internal/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/firebase/database/collection/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/firebase/firestore/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/firebase/com/protolitewrapper/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/firebase/firestore/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/firebase/firestore/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/tasks/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/auth/internal/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/database/collection/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firestore/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/firebase/com/protolitewrapper/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/firestore/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/arch/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/mediacompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/ads_identifier/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/measurement/api/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/measurement_base/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/stats/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/tasks/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/analytics/connector/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/analytics/connector/impl/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/firebase_core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/iid/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/iid/internal/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/measurement/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/firebase/measurement_impl/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/firebase/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/firebase_core/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/HomePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/auth/Login.1.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/auth/Login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth/Login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/auth/Register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth/Register.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/Account.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/Account.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -19,86 +342,90 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DartProblemsView" auto-scroll-to-source="true" />
   <component name="FUSProjectUsageTrigger">
     <session id="-440053836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="2874" />
+          <entry key="dart" value="4009" />
+          <entry key="gradle" value="51" />
           <entry key="md" value="1" />
-          <entry key="txt" value="27" />
-          <entry key="yaml" value="7" />
+          <entry key="txt" value="40" />
+          <entry key="yaml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="2874" />
+          <entry key="Dart" value="4009" />
+          <entry key="Groovy" value="51" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="27" />
-          <entry key="YAML" value="7" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="44" />
+          <entry key="dart" value="49" />
+          <entry key="gradle" value="13" />
           <entry key="md" value="1" />
-          <entry key="yaml" value="11" />
+          <entry key="yaml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="44" />
+          <entry key="Dart" value="49" />
+          <entry key="Groovy" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="YAML" value="11" />
+          <entry key="YAML" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1484882149">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dart" value="6" />
+          <entry key="gradle" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dart" value="6" />
+          <entry key="Groovy" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/auth/Login.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/auth/Login.1.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,11 +451,15 @@
         <option value="$PROJECT_DIR$/lib/frag/Completed.dart" />
         <option value="$PROJECT_DIR$/lib/frag/Reading.dart" />
         <option value="$PROJECT_DIR$/lib/main/Featured.dart" />
-        <option value="$PROJECT_DIR$/lib/HomePage.dart" />
-        <option value="$PROJECT_DIR$/lib/auth/Register.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/auth/Login.1.dart" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/lib/HomePage.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/pages/Account.dart" />
+        <option value="$PROJECT_DIR$/lib/auth/Register.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/lib/auth/Login.dart" />
       </list>
     </option>
@@ -145,32 +476,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="book_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book_app" type="462c0819:PsiDirectoryNode" />
+              <item name="book_x_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_x_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="book_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book_app" type="462c0819:PsiDirectoryNode" />
+              <item name="book_x_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book_x_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,8 +503,8 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$USER_HOME$/flutter" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -249,13 +574,29 @@
       <option name="project" value="LOCAL" />
       <updated>1548408213374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login Updated">
+      <created>1548410867964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548410867964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1600" height="866" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13320464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13320464" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -264,16 +605,17 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32793522" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.29959515" />
-      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4993565" visible="true" weight="0.39406207" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32928476" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="4" visible="true" weight="0.32793522" />
+      <window_info anchor="bottom" id="Logcat" order="4" weight="0.32793522" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.6644205" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.24831308" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.29149798" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006435" side_tool="true" weight="0.40755737" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32928476" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32793522" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38866398" />
+      <window_info anchor="bottom" id="Find" order="11" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -289,7 +631,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="dependencies updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependencies updated" />
+    <MESSAGE value="Login Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Updated" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
@@ -319,13 +662,6 @@
     <option name="serverIp" value="localhost" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Account.dart" />
     <entry file="file://$PROJECT_DIR$/lib/PlaceholderWidget.dart" />
     <entry file="file://$PROJECT_DIR$/lib/frag/Favorites.dart">
@@ -344,13 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/animated_icons.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/animated_icons.dart" />
     <entry file="file://$PROJECT_DIR$/lib/main/Featured.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -365,41 +695,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/auth/Register.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/auth/Welcome.dart" />
-    <entry file="file://$PROJECT_DIR$/lib/HomePage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/frag/Completed.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-630">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -410,36 +710,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/material_button.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/auth/Login.1.dart" />
+    <entry file="file://$PROJECT_DIR$/lib/HomePage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/material_button.dart">
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="60">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/auth/Login.1.dart">
+    <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="15" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="60" column="61" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/auth/Login.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/auth/Login.dart">
+    <entry file="file://$PROJECT_DIR$/lib/auth/Register.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="-1035">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/Account.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

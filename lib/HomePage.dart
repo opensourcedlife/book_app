@@ -6,7 +6,6 @@ import 'package:book_app/pages/Help.dart';
 import 'package:book_app/pages/MyBooks.dart';
 import 'package:book_app/pages/Settings.dart';
 import 'package:book_app/pages/WriteBook.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -17,7 +16,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  Future<FirebaseUser> user = FirebaseAuth.instance.currentUser();
   var _AccountName = "Faith Yummy";
   var _AccountEmail = 'info@opensourcedlife.org';
   var _AccountAbbr = 'FY';
