@@ -1,9 +1,17 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 //account class
-class Account extends StatelessWidget {
-  static final String routeName = '/account';
-
+class Account extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return _AccountState();
+      }
+    
+      
+    }
+    
+class _AccountState extends State<Account> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
