@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "806512413075",
+    "firebase_url": "https://book-app-3ef74.firebaseio.com",
+    "project_id": "book-app-3ef74",
+    "storage_bucket": "book-app-3ef74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806512413075:android:10365c4af108a20c",
+        "android_client_info": {
+          "package_name": "org.opensourcedlife.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806512413075-2eg1da952hhespd5s6ehrpmiq3jn246p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHuPffTmzxTtbOc5onWZ39k0AsEhOaTwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
