@@ -13,6 +13,7 @@ dependencies:
   localstorage:
   intro_slider:
   cupertino_icons: ^0.1.2
+  carousel_pro: ^0.0.13
 
 dev_dependencies:
   flutter_test:
@@ -40,6 +41,15 @@ flutter:
    - images/b5.jpg
    - images/b6.jpg
    - images/logo/avata.jpeg
+   - images/slider/slide1.jpg
+   - images/slider/slide2.jpg
+   - images/slider/slide3.jpg
+   - images/category/artificial.png
+   - images/category/business.png
+   - images/category/farming.png
+   - images/category/fiction.png
+   - images/category/romance.png
+   - images/category/tech.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

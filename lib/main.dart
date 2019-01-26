@@ -1,3 +1,4 @@
+import 'package:book_app/HomePage.dart';
 import 'package:book_app/SplashScreen.dart';
 import 'package:book_app/pages/Account.dart';
 import 'package:book_app/pages/BookList.dart';
@@ -21,11 +22,12 @@ class _MainAppState extends State<BookApp> {
   Widget build(BuildContext context) {
     return new MaterialApp(
         title: 'Book App',
-        theme: new ThemeData(
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
             primaryColor: Colors.deepOrangeAccent,
             primaryColorDark: Colors.orange[900],
             accentColor: Colors.greenAccent),
-        home: new SplashScreen(),
+        home: HomePage(),
         routes: {
           '/account': (context) => Account(),
           '/mybooks': (context) => MyBooks(),
