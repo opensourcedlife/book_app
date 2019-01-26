@@ -1,5 +1,4 @@
 import 'package:book_app/HomePage.dart';
-import 'package:book_app/SplashScreen.dart';
 import 'package:book_app/pages/Account.dart';
 import 'package:book_app/pages/BookList.dart';
 import 'package:book_app/pages/Help.dart';

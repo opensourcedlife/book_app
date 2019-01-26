@@ -27,12 +27,15 @@ class _HomePageState extends State<HomePage> {
       drawer: new Drawer(
         child: draweList(context),
       ),
+      
       floatingActionButton: new FloatingActionButton(
         onPressed: (){},
         child: Icon(Icons.add),
         foregroundColor: Theme.of(context).primaryColor,
         backgroundColor: Theme.of(context).accentColor,
       ),
+
+
       appBar: new AppBar(
         title: new Text('$_appName'),
         actions: <Widget>[
@@ -45,6 +48,8 @@ class _HomePageState extends State<HomePage> {
          
         ],
       ),
+
+
       body: Main(),
     );
   }
@@ -74,7 +79,7 @@ class _HomePageState extends State<HomePage> {
               }),
           new Divider(),
           new ListTile(
-            leading: new Icon(Icons.add, color: Theme.of(context).primaryColor,),
+            leading: new Icon(Icons.add, color: Colors.amber),
             title: new Text('Write Book'),
             onTap: () {
               Navigator.of(context).pop();
