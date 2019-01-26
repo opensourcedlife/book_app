@@ -1,7 +1,7 @@
 import 'package:book_app/HomePage.dart';
 import 'package:book_app/auth/Register.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 
 class Login extends StatefulWidget {
   @override
@@ -119,15 +119,7 @@ class _LoginState extends State<Login> {
     final formState = _formKey.currentState;
     if (formState.validate()) {
       formState.save();
-      try {
-        FirebaseUser user = await FirebaseAuth.instance
-            .signInWithEmailAndPassword(email: _email, password: _password);
-        if (user.getIdToken() != null) {
-          Navigator.of(context).push( MaterialPageRoute(builder: (context) => HomePage()));
-        }
-      } catch (e) {
-        print(e.message);
-      }
+
     }
   }
 

@@ -1,5 +1,4 @@
 import 'package:book_app/auth/Login.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class Register extends StatefulWidget {
@@ -97,18 +96,13 @@ class _RegisterState extends State<Register> {
     final formState = _formKey.currentState;
     if (formState.validate()) {
       formState.save();
-      try {
-        FirebaseUser user = await FirebaseAuth.instance
-            .createUserWithEmailAndPassword(email: _email, password: _password);
-        user.sendEmailVerification();
+
 
         print("User Created Successfully");
         Navigator.of(context).pop();
         // Navigator.pushReplacement(
         //     context, MaterialPageRoute(builder: (context) => Welcome()));
-      } catch (e) {
-        print(e.message);
-      }
+
     }
   }
 

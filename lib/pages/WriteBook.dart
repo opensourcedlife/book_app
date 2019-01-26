@@ -8,7 +8,7 @@ class WriteBook extends StatelessWidget {
         title: new Text('Write Book'),
       ),
       body: new Center(
-        child: new Text('Write Book Page', style: new TextStyle(fontSize: 24.0)),
+        child: new EditableText(controller: null, focusNode: null, style: null, cursorColor: null)
       ),
     );
   }
