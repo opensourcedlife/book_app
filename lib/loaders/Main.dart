@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:book_app/loaders/CategoryList.dart';
+import 'package:book_app/loaders/SliderCarousal.dart';
 
 class Main extends StatefulWidget {
 
@@ -9,24 +11,9 @@ class Main extends StatefulWidget {
 }
 
 class _MainState extends State<Main> with SingleTickerProviderStateMixin{
-  var _initialPage = 0;
-  var _color = Colors.white10;
-   Animation<double> animation;
-  AnimationController controller;
-
   
   initState() {
     super.initState();
-    controller = AnimationController(
-        duration: const Duration(milliseconds: 3), vsync: this
-        );
-    animation = Tween(begin: 0.0, end: 300.0).animate(controller)
-      ..addListener(() {
-        setState(() {
-         _color = Colors.blue[70];
-        });
-      });
-    controller.forward();
   }
     
   @override
@@ -34,68 +21,29 @@ class _MainState extends State<Main> with SingleTickerProviderStateMixin{
   Widget build(BuildContext context) {
    
     return SafeArea(
-      child: SafeArea(
-        child: PageView(
-          controller: PageController(
-             initialPage: _initialPage,
-          ),
+      bottom: true,
+      left: true,
+      right: true,
+      top: true,
+        child: new ListView(
           children: <Widget>[
-
-            FadeTransition(
-              opacity: animation,
-              child: AnimatedContainer(
-              duration: Duration(days: 0,hours: 0,minutes: 0,seconds: 4,milliseconds: 66,microseconds: 0),
-              child: Center (
-                child: Card(
-                  color: Colors.lightGreen,
-                  elevation: 1,
-                  margin: EdgeInsets.all(2.0),
-                  semanticContainer: true,
-                  child: Wrap(
-                    alignment: WrapAlignment.center,
-                    children: <Widget>[
-                      Text("Everlasting Joy", textAlign: TextAlign.center, style: TextStyle(fontSize: 25,fontWeight: FontWeight.w300,color: Colors.white),),
-                      Image(
-                          image:  AssetImage('images/b5.jpg'),
-                          fit: BoxFit.fill,
-                       ),
-                    ],
-                  ),
-                )
-                ),
-              color: _color,
-              curve: Curves.easeIn,
-            
+            SliderCarousal(),
+            new Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text("Categories",style: TextStyle(color: Colors.black45),),
             ),
+            CategoryList(),
+            new Padding(
+              padding: EdgeInsets.only(bottom: 8.0,left: 8.0,top: 15.0,right: 8.0),
+              child: Text("Featured", style: TextStyle(color: Colors.black45),),
             ),
-            Container(
-              child: Center(
-              child: Text("Features")
-              ),
-              color: Colors.amberAccent,
-            ),
-            Container(
-              child: Center(
-              child: Text("Favories")
-              ),
-              color: Colors.redAccent,
-            ),
-            Container(
-              child: Center(
-              child: Text("Retweets")
-              ),
-              color: Colors.blueGrey,
-            ),
-
           ],
-          scrollDirection: Axis.vertical,
-        ),
-      ),
+        )
+    
     );
   
   }
   dispose() {
-    controller.dispose();
     super.dispose();
   }
 
