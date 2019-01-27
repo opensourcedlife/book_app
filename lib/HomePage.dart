@@ -27,29 +27,23 @@ class _HomePageState extends State<HomePage> {
       drawer: new Drawer(
         child: draweList(context),
       ),
-      
       floatingActionButton: new FloatingActionButton(
-        onPressed: (){},
+        onPressed: () {},
         child: Icon(Icons.add),
         foregroundColor: Theme.of(context).primaryColor,
         backgroundColor: Theme.of(context).accentColor,
       ),
-
-
       appBar: new AppBar(
         title: new Text('$_appName'),
         actions: <Widget>[
           new IconButton(
-            onPressed: (){},
+            onPressed: () {},
             icon: Icon(
               Icons.search,
             ),
           )
-         
         ],
       ),
-
-
       body: Main(),
     );
   }
@@ -65,7 +59,10 @@ class _HomePageState extends State<HomePage> {
                 backgroundColor: Colors.brown, child: new Text(_accountAbbr)),
           ),
           new ListTile(
-              leading: new Icon(Icons.person, color: Theme.of(context).primaryColor,),
+              leading: new Icon(
+                Icons.person,
+                color: Theme.of(context).primaryColor,
+              ),
               title: new Text('Account'),
               onTap: () {
                 Navigator.of(context).pop();
@@ -79,7 +76,10 @@ class _HomePageState extends State<HomePage> {
               }),
           new Divider(),
           new ListTile(
-            leading: new Icon(Icons.add, color: Colors.amber),
+            leading: new Icon(
+              Icons.add,
+              color: Theme.of(context).primaryColor,
+            ),
             title: new Text('Write Book'),
             onTap: () {
               Navigator.of(context).pop();
@@ -93,7 +93,10 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           new ListTile(
-            leading: new Icon(Icons.list, color: Theme.of(context).primaryColor,),
+            leading: new Icon(
+              Icons.list,
+              color: Theme.of(context).primaryColor,
+            ),
             title: new Text('Books List'),
             onTap: () {
               Navigator.of(context).pop();
@@ -107,7 +110,10 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           new ListTile(
-            leading: new Icon(Icons.book, color: Theme.of(context).primaryColor,),
+            leading: new Icon(
+              Icons.book,
+              color: Theme.of(context).primaryColor,
+            ),
             title: new Text('My Books'),
             onTap: () {
               Navigator.of(context).pop();
@@ -122,7 +128,10 @@ class _HomePageState extends State<HomePage> {
           ),
           new Divider(),
           new ListTile(
-            leading: new Icon(Icons.settings, color: Theme.of(context).primaryColor,),
+            leading: new Icon(
+              Icons.settings,
+              color: Theme.of(context).primaryColor,
+            ),
             title: new Text('Settings'),
             onTap: () {
               Navigator.of(context).pop();
@@ -136,7 +145,10 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           new ListTile(
-            leading: new Icon(Icons.help, color: Theme.of(context).primaryColor,),
+            leading: new Icon(
+              Icons.help,
+              color: Theme.of(context).primaryColor,
+            ),
             title: new Text('Help & feedback'),
             onTap: () {
               Navigator.of(context).pop();
@@ -150,7 +162,10 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           new ListTile(
-            leading: new Icon(Icons.exit_to_app, color: Theme.of(context).primaryColor,),
+            leading: new Icon(
+              Icons.exit_to_app,
+              color: Theme.of(context).primaryColor,
+            ),
             title: new Text('Logout'),
             onTap: () {
               Navigator.of(context).pop();
@@ -165,6 +180,4 @@ class _HomePageState extends State<HomePage> {
           )
         ]);
   }
-
- 
 }

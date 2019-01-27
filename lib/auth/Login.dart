@@ -1,5 +1,10 @@
-//import 'package:book_app/HomePage.dart';
+import 'dart:async';
+
+import 'package:book_app/HomePage.dart';
+import 'package:book_app/auth/Register.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'dart:core';
 
 class Login extends StatefulWidget {
   static String tag = "login-ui";
@@ -101,7 +106,7 @@ class _LoginState extends State<Login> {
         ? FlatButton(
             child: Text("Don't have an account? Sign Up",
                 style: TextStyle(color: Colors.black26)),
-            onPressed: () {},
+            onPressed: signUpRoute,
           )
         : Container();
 
@@ -146,6 +151,11 @@ class _LoginState extends State<Login> {
     );
   }
 
+  void signUpRoute() {
+    Navigator.of(context)
+        .pushReplacement(MaterialPageRoute(builder: (context) => Register()));
+  }
+
   Future<void> signIn() async {
     final formState = _formKey.currentState;
     if (formState.validate()) {
@@ -155,22 +165,22 @@ class _LoginState extends State<Login> {
         visibility = true;
       });
 
-//      try {
-//        FirebaseUser user = await FirebaseAuth.instance
-//            .signInWithEmailAndPassword(email: _email, password: _password);
-//        if (user.getIdToken() != null) {
-//          Navigator.of(context).pushReplacement(
-//              MaterialPageRoute(builder: (context) => HomePage()));
-//        }
-//      } catch (e) {
-//        setState(() {
-//          hideLayout = true;
-//
-//          _errorMessage = e.message;
-//          _errorDialog("Authentication Error", e.message, "Okay Cool");
-//          visibility = false;
-//        });
-//      }
+      try {
+        FirebaseUser user = await FirebaseAuth.instance
+            .signInWithEmailAndPassword(email: _email, password: _password);
+        if (user.getIdToken() != null) {
+          Navigator.of(context).pushReplacement(
+              MaterialPageRoute(builder: (context) => HomePage()));
+        }
+      } catch (e) {
+        setState(() {
+          hideLayout = true;
+
+          _errorMessage = e.message;
+          _errorDialog("Authentication Error", e.message, "Okay Cool");
+          visibility = false;
+        });
+      }
     }
   }
 

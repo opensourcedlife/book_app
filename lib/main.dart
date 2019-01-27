@@ -1,4 +1,5 @@
 import 'package:book_app/HomePage.dart';
+import 'package:book_app/auth/Login.dart';
 import 'package:book_app/pages/Account.dart';
 import 'package:book_app/pages/BookList.dart';
 import 'package:book_app/pages/Help.dart';
@@ -26,7 +27,7 @@ class _MainAppState extends State<BookApp> {
             primaryColor: Colors.deepOrangeAccent,
             primaryColorDark: Colors.orange[900],
             accentColor: Colors.greenAccent),
-        home: HomePage(),
+        home: Login(),
         routes: {
           '/account': (context) => Account(),
           '/mybooks': (context) => MyBooks(),

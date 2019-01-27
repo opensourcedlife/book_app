@@ -1,4 +1,5 @@
 import 'package:book_app/auth/Login.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class Register extends StatefulWidget {
@@ -64,7 +65,7 @@ class _RegisterState extends State<Register> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               RaisedButton(
-                onPressed: () {},
+                onPressed: createAccount,
                 child: Text("Create Account",
                     style: TextStyle(
                       color: Colors.white,
@@ -92,24 +93,23 @@ class _RegisterState extends State<Register> {
     );
   }
 
-//  Future<void> createAccount() async {
-//    final formState = _formKey.currentState;
-//    if (formState.validate()) {
-//      formState.save();
-//      try {
-//        FirebaseUser user = await FirebaseAuth.instance
-//            .createUserWithEmailAndPassword(email: _email, password: _password);
-//        user.sendEmailVerification();
-//
-//        print("User Created Successfully");
-//        Navigator.of(context).pop();
-//        // Navigator.pushReplacement(
-//        //     context, MaterialPageRoute(builder: (context) => Welcome()));
-//      } catch (e) {
-//        print(e.message);
-//      }
-//    }
-//  }
+  Future<void> createAccount() async {
+    final formState = _formKey.currentState;
+    if (formState.validate()) {
+      formState.save();
+      try {
+        FirebaseUser user = await FirebaseAuth.instance
+            .createUserWithEmailAndPassword(email: _email, password: _password);
+        user.sendEmailVerification();
+
+        print("User Created Successfully");
+        Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => Login()));
+      } catch (e) {
+        print(e.message);
+      }
+    }
+  }
 
   void signIn() {
     Navigator.of(context).pushReplacement(MaterialPageRoute(
