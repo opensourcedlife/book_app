@@ -27,7 +27,7 @@ class _MainAppState extends State<BookApp> {
             primaryColor: Colors.deepOrangeAccent,
             primaryColorDark: Colors.orange[900],
             accentColor: Colors.greenAccent),
-        home: Login(),
+        home: HomePage(),
         routes: {
           '/account': (context) => Account(),
           '/mybooks': (context) => MyBooks(),

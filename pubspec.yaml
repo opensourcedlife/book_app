@@ -16,6 +16,7 @@ dependencies:
   carousel_pro: ^0.0.13
   firebase_auth: ^0.8.0+1
   cloud_firestore: ^0.9.0
+  connectivity: ^0.4.0
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +53,12 @@ flutter:
    - images/category/fiction.png
    - images/category/romance.png
    - images/category/tech.png
+   - images/featured/cov1.jpg
+   - images/featured/cov2.png
+   - images/featured/cov3.jpg
+   - images/featured/cov4.jpg
+   - images/featured/cov5.jpg
+   - images/featured/cov6.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

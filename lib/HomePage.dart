@@ -30,8 +30,8 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: new FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.add),
-        foregroundColor: Theme.of(context).primaryColor,
-        backgroundColor: Theme.of(context).accentColor,
+        foregroundColor: Theme.of(context).accentColor,
+        backgroundColor: Theme.of(context).primaryColor,
       ),
       appBar: new AppBar(
         title: new Text('$_appName'),

@@ -1,3 +1,4 @@
+import 'package:book_app/loaders/FeaturedBooks.dart';
 import 'package:flutter/material.dart';
 import 'package:book_app/loaders/CategoryList.dart';
 import 'package:book_app/loaders/SliderCarousal.dart';
@@ -37,6 +38,11 @@ class _MainState extends State<Main> with SingleTickerProviderStateMixin{
               padding: EdgeInsets.only(bottom: 8.0,left: 8.0,top: 15.0,right: 8.0),
               child: Text("Featured", style: TextStyle(color: Colors.black45),),
             ),
+            
+          Container(
+            height: 400.0,
+            child: FeaturedBooks(),
+          )  
           ],
         )
     

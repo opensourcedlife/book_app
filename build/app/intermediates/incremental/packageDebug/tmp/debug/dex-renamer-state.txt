@@ -1,4 +1,4 @@
-#Sun Jan 27 00:32:13 SAST 2019
+#Sun Jan 27 14:06:58 SAST 2019
 base.2=/home/cipaldev/AndroidStudioProjects/book_x_app/build/app/intermediates/transforms/dexMerger/debug/3
 base.1=/home/cipaldev/AndroidStudioProjects/book_x_app/build/app/intermediates/transforms/dexMerger/debug/0
 base.0=/home/cipaldev/AndroidStudioProjects/book_x_app/build/app/intermediates/transforms/dexMerger/debug/2
@@ -22,8 +22,14 @@ renamed.2=classes3.dex
 path.0=classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.13=classes14.dex
+renamed.12=classes13.dex
 renamed.11=classes12.dex
 renamed.10=classes11.dex
+path.13=classes.dex
+base.13=/home/cipaldev/AndroidStudioProjects/book_x_app/build/app/intermediates/transforms/dexMerger/debug/11
+path.12=classes.dex
+base.12=/home/cipaldev/AndroidStudioProjects/book_x_app/build/app/intermediates/transforms/dexMerger/debug/12
 path.11=classes.dex
 base.11=/home/cipaldev/AndroidStudioProjects/book_x_app/build/app/intermediates/transforms/dexMerger/debug/6
 path.10=classes.dex

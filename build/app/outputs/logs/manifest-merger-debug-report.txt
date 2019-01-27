@@ -6,6 +6,7 @@ INJECTED from /home/cipaldev/AndroidStudioProjects/book_x_app/android/app/src/ma
 INJECTED from /home/cipaldev/AndroidStudioProjects/book_x_app/android/app/src/main/AndroidManifest.xml:1:1-39:12
 MERGED from [:firebase_auth] /home/cipaldev/AndroidStudioProjects/book_x_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:intro_slider] /home/cipaldev/AndroidStudioProjects/book_x_app/build/intro_slider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:path_provider] /home/cipaldev/AndroidStudioProjects/book_x_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] /home/cipaldev/AndroidStudioProjects/book_x_app/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /home/cipaldev/AndroidStudioProjects/book_x_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -174,6 +175,8 @@ MERGED from [:firebase_auth] /home/cipaldev/AndroidStudioProjects/book_x_app/bui
 MERGED from [:firebase_auth] /home/cipaldev/AndroidStudioProjects/book_x_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:intro_slider] /home/cipaldev/AndroidStudioProjects/book_x_app/build/intro_slider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:intro_slider] /home/cipaldev/AndroidStudioProjects/book_x_app/build/intro_slider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /home/cipaldev/AndroidStudioProjects/book_x_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /home/cipaldev/AndroidStudioProjects/book_x_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /home/cipaldev/AndroidStudioProjects/book_x_app/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -282,7 +285,9 @@ INJECTED from /home/cipaldev/AndroidStudioProjects/book_x_app/android/app/src/ma
 		ADDED from /home/cipaldev/AndroidStudioProjects/book_x_app/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/cipaldev/AndroidStudioProjects/book_x_app/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-firestore:17.1.5] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/81205ad0d16a85020ffb2f1be101c61f/AndroidManifest.xml:9:5-79
+ADDED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/81205ad0d16a85020ffb2f1be101c61f/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.5] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/81205ad0d16a85020ffb2f1be101c61f/AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/695750d3f842e927531a7dab6334ef54/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/695750d3f842e927531a7dab6334ef54/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/3b335407e3691b0cff9953fc8e0478d8/AndroidManifest.xml:24:5-79
@@ -294,7 +299,11 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/cipaldev/.gradle/cac
 MERGED from [io.grpc:grpc-android:1.16.1] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/04c1bef77a564d8f206d3b4ab3ac75d4/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.16.1] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/04c1bef77a564d8f206d3b4ab3ac75d4/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:17.1.5] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/81205ad0d16a85020ffb2f1be101c61f/AndroidManifest.xml:9:22-76
+		ADDED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from [:connectivity] /home/cipaldev/AndroidStudioProjects/book_x_app/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-73
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore:17.1.5] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-17.1.5.aar/81205ad0d16a85020ffb2f1be101c61f/AndroidManifest.xml:13:9-17:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/cipaldev/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/b2d64eae6f32acbf22035b222d4be572/AndroidManifest.xml:33:9-39:19
